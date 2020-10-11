@@ -1,12 +1,14 @@
 ## Post sample
 
-- [post-syd-sample live at Expo](https://expo.io/@mgunsd/posts-syd-demo)
+- [Live Demo at Expo](https://expo.io/@mgunsd/posts-syd-demo)
 
-<a href="https://expo.io/@mgunsd/posts-syd-demo">![NWS](https://github.com/mgunsd/posts-syd-demo/raw/master/src/assets/mockup.png)</a>
+<a href="https://expo.io/@mgunsd/posts-syd-demo">![NWS](https://github.com/mgunsd/posts-syd-demo/raw/master/src/assets/ss/mockup.png)</a>
 
 <details>
 <summary>
+
 ## Log
+
 </summary>
 
 `expo init post-syd-sample`
@@ -30,8 +32,11 @@
 
 <details>
 <summary>
+
 ## Task Detail
+
 </summary>
+
 ## Using the API endpoint
 
 GET ​http://jsonplaceholder.typicode.com/posts
@@ -47,11 +52,13 @@ A screen containing a list of posts, each cell displaying the title of the post.
 ## Screen2:
 
 The detail screen for the selected post
-● Back button should take you back to screen 1
-● Post title
-● Post body
-● Post username
-● Post comments (cells with their names and bodies)
+
+- ● Back button should take you back to screen 1
+- ● Post title
+- ● Post body
+- ● Post username
+- ● Post comments (cells with their names and bodies)
+
 Please do not focus on the UI, the focus of this exercise should be the quality of the code. The use of any 3rd party library is permitted.
 The solution can be submitted via a zip archive or as a GIT repo (preferred solution).
 
