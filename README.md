@@ -12,3 +12,4 @@ Module resolver added to babel.config.js for absolute paths
 - `git commit -am "RN Expo BoilerPlate constructed"`
 - `git commit -am "Assets added"`
 - `git commit -am "Navigation Structured"`
+- `git commit -am "Theme Context system added"`
