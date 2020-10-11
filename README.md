@@ -2,7 +2,7 @@
 
 - [post-syd-sample live at Expo](https://expo.io/@mgunsd/posts-syd-demo)
 
-<a href="https://expo.io/@mgunsd/posts-syd-demo">![NWS](https://github.com/mgunsd/posts-syd-demo/raw/master/src/assets/icon.png)</a>
+<a href="https://expo.io/@mgunsd/posts-syd-demo">![NWS](https://github.com/mgunsd/posts-syd-demo/raw/master/src/assets/mockup.png)</a>
 
 <details>
 <summary>
