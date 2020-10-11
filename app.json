@@ -22,7 +22,7 @@
     "web": {
       "favicon": "src/assets/favicon.png"
     },
-    "description": "A Posts List Demo App",
-    "githubUrl": "https://github.com/mgunsd/post-syd-demo"
+    "description": "A JSONPlaceholder Posts Request Demo App \n#React Native #Custom Hook #theme context #reactNavigation #axios",
+    "githubUrl": "https://github.com/mgunsd/posts-syd-demo"
   }
 }
