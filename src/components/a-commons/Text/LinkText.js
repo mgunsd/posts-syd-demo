@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   link: {
     fontFamily: 'SFProDisplay-Regular',
     fontSize: 17,
-    lineHeight: 22,
+    lineHeight: 26,
     letterSpacing: 0.60,
   }
 });

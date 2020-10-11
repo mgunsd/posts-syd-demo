@@ -1,7 +1,7 @@
 import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { useTheme } from 'context';
-import { ThemesScreen, CreditsScreen, PostListScreen } from 'screens';
+import { ThemesScreen, IntroScreen, CreditsScreen, PostListScreen } from 'screens';
 import MainStack from './MainStack';
 
 const Drawer = createDrawerNavigator();
@@ -26,8 +26,8 @@ export default DrawerMenu = () => {
         width: 240,
       }}
     >
-      <Drawer.Screen name='Main' component={MainStack} />
-      <Drawer.Screen name='Posts' component={PostListScreen} />
+      <Drawer.Screen name='Intro' component={IntroScreen} />
+      <Drawer.Screen name='Posts' component={MainStack} />
       <Drawer.Screen name='Themes' component={ThemesScreen} />
       <Drawer.Screen name='Credits' component={CreditsScreen} />
     </Drawer.Navigator >

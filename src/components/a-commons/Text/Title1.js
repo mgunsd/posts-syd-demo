@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
   title1: {
     fontFamily: 'SFProDisplay-Bold',
     fontSize: 34,
-    lineHeight: 41,
+    lineHeight: 45,
     letterSpacing: 0.36,
   }
 });

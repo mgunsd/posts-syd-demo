@@ -15,3 +15,6 @@
 - `git commit -am "Common components build"`
 - `git commit -am "Drawer Screens initiated"`
 - `git commit -am "Task Screens initiated"`
+- `git commit -am "Custom Hook constructed for HTTP req"`
+- `git commit -am "Working Draft 1"`
+- `git commit -am "Working Draft 2 Credits Update"`

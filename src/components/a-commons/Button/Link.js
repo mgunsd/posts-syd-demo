@@ -1,17 +1,26 @@
-import React from 'react'
-import { Text, StyleSheet, TouchableOpacity } from 'react-native';
+import React, { useCallback } from 'react'
+import { Text, StyleSheet, Linking, Alert, TouchableOpacity } from 'react-native';
 import { useTheme } from 'context';
 
 export const Link = ({
   style,
-  text,
-  onPress,
+  children,
+  url,
 
 }) => {
   const { colors } = useTheme();
+  const handlePress = useCallback(async () => {
+    const supported = await Linking.canOpenURL(url);
+    if (supported) {
+      await Linking.openURL(url);
+    } else {
+      Alert.alert(`Don't know how to open this URL: ${url}`);
+    }
+  }, [url]);
+
   return (
     <TouchableOpacity
-      onPress={onPress}
+      onPress={handlePress}
     >
       <Text
         style={{
@@ -19,7 +28,7 @@ export const Link = ({
           color: colors.text,
           ...style
         }}
-      >{text}</Text>
+      >{children}</Text>
     </TouchableOpacity>
   )
 };
@@ -27,11 +36,9 @@ export const Link = ({
 const styles = StyleSheet.create({
   linkStyle: {
     fontFamily: 'SFProDisplay-Regular',
-    fontSize: 15,
-    letterSpacing: 0.6,
-    flex: 1,
-    textAlign: 'center',
+    fontSize: 17,
     lineHeight: 22,
+    letterSpacing: 0.60,
   }
 })
 
